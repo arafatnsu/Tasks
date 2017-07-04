@@ -53,7 +53,6 @@ handleClose() {
 }
   render() {
     const trains = this.state.trains
-    console.log(this.state.trainDetails)
     return (
       <div className="App">
         {trains &&
